@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+.kanban {
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+    padding: 2rem;
+    border: solid aqua;
+    height: 100%;
+}
+
+.navBar {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    display: block;
+    overflow: auto;
+    font-weight: bold;
+}
+
+.app {
+    height: 100%;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.column {
+    width: 20%;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+.colHeader {
+    color: black;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    margin: 0.5rem;
+    background-color: #808080;
+    padding-bottom: 0.5rem;
+}
+
+.task {
+    width: 90%;
+    border: solid black;
+    background-color: #1a1a1a;
+    color: white;
+    overflow: auto;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    background-color: #66e666;
+    float: left;
+    margin: 1rem;
+}
+
+.title {
+    float: left;
+    margin: 1rem;
+}
+
+.toolBar {
+    background-color: #1a1a1a;
+    height: 30px;
+    color: white;
+}
+
+.navButton {
+    background-color: black;
+    border: none;
+    color: white;
+    margin: 1rem;
+    height: 40px;
+    width: 40px;
+}
+
+.navButton:hover {
+    background-color: #808080;
+}
+
+.textInput {
+    width: 90%;
+    border: none;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.taskContainer {
+    background-color: #808080;
+    padding: 1rem;
+}
+
